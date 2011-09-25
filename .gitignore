@@ -16,6 +16,7 @@
 *.synctex.gz
 *.pdf
 *.project
+*.DS_Store
 #
 
 #	VHDL
