@@ -1,0 +1,28 @@
+\select@language {english}
+\contentsline {section}{\numberline {0.1}Introduction}{2}
+\contentsline {section}{\numberline {0.2}Problem Statement}{3}
+\contentsline {section}{\numberline {0.3}Task Description}{4}
+\contentsline {section}{\numberline {0.4}Stakeholder Analysis}{5}
+\contentsline {section}{\numberline {0.5}Interaction Design}{6}
+\contentsline {subsection}{Usability Goals}{6}
+\contentsline {subsubsection}{Safety}{6}
+\contentsline {subsubsection}{Learnability}{6}
+\contentsline {subsubsection}{Memorability}{6}
+\contentsline {subsubsection}{Effectiveness}{6}
+\contentsline {subsubsection}{Efficiency/Performance}{6}
+\contentsline {subsubsection}{Utility}{6}
+\contentsline {subsection}{User experience goals}{7}
+\contentsline {section}{\numberline {0.6}Identifying Needs}{8}
+\contentsline {subsection}{Requirements}{8}
+\contentsline {subsubsection}{Physical}{8}
+\contentsline {subsubsection}{Social}{8}
+\contentsline {subsubsection}{Technical}{8}
+\contentsline {subsubsection}{Organisation}{8}
+\contentsline {subsection}{Users}{8}
+\contentsline {section}{\numberline {0.7}Design Process}{9}
+\contentsline {subsection}{Prototype Design}{9}
+\contentsline {subsection}{Participatory Design}{9}
+\contentsline {subsection}{Usability Test}{9}
+\contentsline {section}{\numberline {0.8}Conclusion}{10}
+\contentsline {section}{\numberline {0.9}Process Description}{11}
+\contentsline {section}{\numberline {0.10}References}{12}
