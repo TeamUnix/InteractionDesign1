@@ -9,19 +9,19 @@
 \contentsline {subsection}{Memorability}{7}
 \contentsline {subsection}{Effectiveness}{7}
 \contentsline {subsection}{Efficiency/Performance}{7}
-\contentsline {subsection}{Utility}{7}
-\contentsline {section}{\numberline {0.6}User experience goals}{8}
-\contentsline {section}{\numberline {0.7}Identifying Needs}{9}
-\contentsline {subsection}{Requirements}{9}
-\contentsline {subsubsection}{Physical}{9}
-\contentsline {subsubsection}{Social}{9}
-\contentsline {subsubsection}{Technical}{9}
-\contentsline {subsubsection}{Organisation}{9}
-\contentsline {subsection}{Users}{9}
-\contentsline {section}{\numberline {0.8}Design Process}{10}
-\contentsline {subsection}{Prototype Design}{10}
-\contentsline {subsection}{Participatory Design}{10}
-\contentsline {subsection}{Usability Test}{10}
-\contentsline {section}{\numberline {0.9}Conclusion}{11}
-\contentsline {section}{\numberline {0.10}Process Description}{12}
-\contentsline {section}{\numberline {0.11}References}{13}
+\contentsline {subsection}{Utility}{8}
+\contentsline {section}{\numberline {0.6}User experience goals}{9}
+\contentsline {section}{\numberline {0.7}Identifying Needs}{10}
+\contentsline {subsection}{Requirements}{10}
+\contentsline {subsubsection}{Physical}{10}
+\contentsline {subsubsection}{Social}{10}
+\contentsline {subsubsection}{Technical}{10}
+\contentsline {subsubsection}{Organisation}{10}
+\contentsline {subsection}{Users}{10}
+\contentsline {section}{\numberline {0.8}Design Process}{11}
+\contentsline {subsection}{Participatory Design}{11}
+\contentsline {subsection}{Prototype Design}{11}
+\contentsline {subsection}{Usability Test}{11}
+\contentsline {section}{\numberline {0.9}Conclusion}{12}
+\contentsline {section}{\numberline {0.10}Process Description}{13}
+\contentsline {section}{\numberline {0.11}References}{14}
