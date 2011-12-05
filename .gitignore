@@ -17,6 +17,7 @@
 *.pdf
 *.project
 *.DS_Store
+*.toc
 #
 
 #	VHDL
