@@ -1,27 +1,28 @@
 \select@language {english}
 \contentsline {section}{\numberline {0.1}Introduction}{3}
-\contentsline {section}{\numberline {0.2}Problem Statement}{4}
-\contentsline {section}{\numberline {0.3}Task Description}{5}
-\contentsline {section}{\numberline {0.4}Stakeholder Analysis}{6}
-\contentsline {section}{\numberline {0.5}Usability Goals}{7}
+\contentsline {section}{\numberline {0.2}Introduction}{3}
+\contentsline {section}{\numberline {0.3}Problem Statement}{4}
+\contentsline {section}{\numberline {0.4}Task Description}{5}
+\contentsline {section}{\numberline {0.5}Stakeholder Analysis}{6}
+\contentsline {section}{\numberline {0.6}Usability Goals}{7}
 \contentsline {subsection}{Safety}{7}
 \contentsline {subsection}{Learnability}{7}
 \contentsline {subsection}{Memorability}{7}
 \contentsline {subsection}{Effectiveness}{7}
 \contentsline {subsection}{Efficiency/Performance}{7}
 \contentsline {subsection}{Utility}{8}
-\contentsline {section}{\numberline {0.6}User experience goals}{9}
-\contentsline {section}{\numberline {0.7}Identifying Needs}{10}
+\contentsline {section}{\numberline {0.7}User experience goals}{9}
+\contentsline {section}{\numberline {0.8}Identifying Needs}{10}
 \contentsline {subsection}{Requirements}{10}
 \contentsline {subsubsection}{Physical}{10}
 \contentsline {subsubsection}{Social}{10}
 \contentsline {subsubsection}{Technical}{10}
 \contentsline {subsubsection}{Organisation}{10}
 \contentsline {subsection}{Users}{10}
-\contentsline {section}{\numberline {0.8}Design Process}{11}
+\contentsline {section}{\numberline {0.9}Design Process}{11}
 \contentsline {subsection}{Participatory Design}{11}
 \contentsline {subsection}{Prototype Design}{11}
 \contentsline {subsection}{Usability Test}{11}
-\contentsline {section}{\numberline {0.9}Conclusion}{12}
-\contentsline {section}{\numberline {0.10}Process Description}{13}
-\contentsline {section}{\numberline {0.11}References}{14}
+\contentsline {section}{\numberline {0.10}Conclusion}{12}
+\contentsline {section}{\numberline {0.11}Process Description}{13}
+\contentsline {section}{\numberline {0.12}References}{14}
