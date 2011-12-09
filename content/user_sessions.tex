@@ -8,15 +8,7 @@ The low fidelity hub prototype is used in the participatory design session. The 
 	\center
 		\setlength\fboxsep{0pt}
 		\setlength\fboxrule{1pt}
-		\fbox{\includegraphics[width=0.4\textwidth]{images/web_interface1.jpg}}
-   	\caption{Picture of the hub LF before session}
-   	\label{fig:LF hub before session}
-\end{figure}
-\begin{figure}[h!]
-	\center
-		\setlength\fboxsep{0pt}
-		\setlength\fboxrule{1pt}
-		\fbox{\includegraphics[width=0.4\textwidth]{images/web_interface1.jpg}}
+		\fbox{\includegraphics[width=0.4\textwidth]{images/LF_hub.png}}
    	\caption{Picture of the hub LF after session}
    	\label{fig:LF hub after session}
 \end{figure}
@@ -27,7 +19,7 @@ The high fidelity hub prototype was made before we had the participatory design 
 	\center
 		\setlength\fboxsep{0pt}
 		\setlength\fboxrule{1pt}
-		\fbox{\includegraphics[width=0.4\textwidth]{images/web_interface1.jpg}}
+		\fbox{\includegraphics[width=0.4\textwidth]{images/HF_hub.png}}
    	\caption{Picture of the hub HF}
    	\label{fig:High fidelity hub}
 \end{figure}
@@ -71,6 +63,22 @@ The goal of the participatory design session with the customer Jan was to clarif
 	\item 2 indication LED for each module (green on = module is powered on. Red on = module is powered off).
 	\item A 230VAC plug is placed on the front to connect: light, phone-chargers or similar. 
 \end{itemize}
+\begin{figure}[h!]
+	\center
+		\setlength\fboxsep{0pt}
+		\setlength\fboxrule{1pt}
+		\fbox{\includegraphics[width=0.4\textwidth]{images/hub_start_of_partivipatory_design.png}}
+   	\caption{Picture of the hub LF before session}
+   	\label{fig:LF hub before session}
+\end{figure}
+\begin{figure}[h!]
+	\center
+		\setlength\fboxsep{0pt}
+		\setlength\fboxrule{1pt}
+		\fbox{\includegraphics[width=0.4\textwidth]{images/partivipatory_design.png}}
+   	\caption{Picture of Participatory Design session}
+   	\label{fig:Participatory Design session}
+\end{figure}
 To get access to the front panel of the hub, a locker should be open with a key, to protect agains fiddle-fingers. The emergency button is of cause operational all the time, and no locker needs to be opened to use it.
 \\When finishing his idea about the front panel of the hub, Jan was introduced to another solution, which worked as a prototype of the finish product. Jan was asked to go through some tasks:
 \begin{itemize}
@@ -103,8 +111,16 @@ In the first usability test we used the power point as a demonstration prototype
 	\item Start/Stop - The start and stop function for the modules did not work intuitive for him
 	\item Not exciting - The page was a bit boring
 \end{itemize}
-In the development of the final web page, with all the PHP and dynamic integration, we will consider every suggestion from the two sessions. Identifying the modules will be taken care of with the PHP, so when you click the wind turbine and there is more than one of them every module will be shown with there ID so the user easily can figure out what module he wants to look at. The warnings should be more visible, Rene suggested to maybe change the background color of the module when there is an error. This observation got a supported very well in the session with Jan, he did not notice that there was an error on one of the batteries, we will make the warnings more visible on the final page, and maybe use the suggestion from Rene with the background color. Both Jan and Rene wanted to make the graphs full screen when they click on them, this will also be implemented in the final page, maybe with a page where the user can change settings for the graphs and see explanation for what the graph shows. The permissions for users without log in, is already implemented in the HTML page. The both wanted more data on the modules, and comparison options between the modules and the specification of the modules, this will be implemented on the final page, when it is possible to get all data through PHP implementation. Rene wanted the data to update every 5 to 10 seconds, this would be waste of resources if no one is looking at the web interface, to optimize this, the web interface would check if anyone is using the page, if someone is using i the data will be updated from the log every 5 - 10 seconds. Jan said that the font was a bit small, this will be helped so it is easy to change the text size on the page. Jan also said that the page was not exciting, and suggested to use more color, but we think it is because of the page is static, in the final page there will be used java scripting to make effect and animation on the page, we think that will help on the excitement for the web page. Jan did not think out start and stop bottoms was intuitive, because of the colors and there was no clearly status indication of the single module, this will be made with a status box for each module clearly showing the status of the module.
-
+In the development of the final web page, with all the PHP and dynamic integration, we will consider every suggestion from the two sessions. Identifying the modules will be taken care of with the PHP, so when you click the wind turbine and there is more than one of them every module will be shown with there ID so the user easily can figure out what module he wants to look at.\\
+The warnings should be more visible, Rene suggested to maybe change the background color of the module when there is an error. This observation got supported very well in the session with Jan, he did not notice that there was an error on one of the batteries, we will make the warnings more visible on the final page, and maybe use the suggestion from Rene with the background color.\\
+Both Jan and Rene wanted to make the graphs full screen when they click on them, this will also be implemented in the final page, maybe with a page where the user can change settings for the graphs and see explanation for what the graph shows.\\
+The permissions for users without log in, is already implemented in the HTML page, so it is possible to see everything on the page without having to log in, but for the possibility to change things you have to log in, this will be made on the final page.\\
+They both wanted more data on the modules, and comparison options between the modules, and the specification of the modules, this will be implemented on the final page, when it is possible to get all data through PHP implementation.\\
+Rene wanted the data to update every 5 to 10 seconds, this would be waste of resources if no one is looking at the web interface, to optimize this, the web interface would check if anyone is using the page, if someone is using it the data will be updated from the log every 5 - 10 seconds.\\
+Jan said that the font was a bit small, this will be helped so it is easy to change the text size on the page.\\
+Jan also said that the page was not exciting, and suggested to use more color, but we think it is because of the page is static, in the final page there will be used java scripting to make effect and animation on the page, we think that will help on the excitement for the web page.\\
+Jan did not think our start and stop bottoms was intuitive, because of the colors and there was no clearly status indication of the single module, this will be made with a status box for each module clearly showing the status of the module.\\
+We got a lots of feedback on the design from the two sessions, and we are planing on implement all of them in a way so it will fulfil the feedback from Rene and Jan. There was no very big things they wanted, so it is all small things that they think would help on the user experience. This is why it is a good idea with user sessions, we got at better understanding of the user needs and concrete suggestion to changes that would make the interface better, this makes it easy to implement because we know exactly what the customer wants.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Second usability tests - Paulo}
