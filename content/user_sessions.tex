@@ -212,7 +212,7 @@ BRIEF DESCRIPTION OF THE USER EMOTIONS AND THOUGHTS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Drama - Theis}
-A drama play is a good tool for engaging a user as co designer in a project. It is always a good idea to involve the user in development of the product, because they will be using the final product, and can easily help with designing the product. This can be accomplished with a drama play, a good thing about the drama play, is that the user is involved, it is easier for the user to understand how the technologies works, and how the product would work. It is also good for the designer because designers do not just develop a product, but also a new work station, this is why it is a good idea to involve the user. The user knows the work practices, he can imagine how he would use it, and assess changes. A drama play do not require big acting potential, it is a basic performance, to show the user how it works, and the designer how the user wants to use it. The goal of a drama session is not to entertain but to clarify how it all would be used.
+A drama play is a good tool for engaging a user as co designer in a project. It is always a good idea to involve the user in development of the product, because they will be using the final product and can easily help with designing the product. This can be accomplished with a drama play, a good thing about the drama play, is that the user is involved, it is easier for the user to understand how the technologies works, and how the product would work. It is also good for the designer because designers do not just develop a product, but also a new work station, this is why it is a good idea to involve the user. The user knows the work practices, he can imagine how he would use it, and assess changes. A drama play do not require big acting potential, it is a basic performance, to show the user how it works, and the designer how the user wants to use it. The goal of a drama session is not to entertain but to clarify how it all would be used.
 
 \subsection{The protocol - Dennis}
 All 'E-teachers' and the three web-costumers was invited to come by and witness a drama session, showing the data handling in the energy system. The session was made to clarify how the protocol in the system is going to work and find possible leaks in it. 
@@ -223,30 +223,40 @@ All 'E-teachers' and the three web-costumers was invited to come by and witness 
    	\label{fig:drama_session_setup}
 \end{figure}
 
-The session was divided into three scenes:
+The session was divided in three scenes:
 \begin{itemize}
-	\item Scene 1
+	\item Scene 1:
 		\begin{enumerate}
-			\item Power on the hub
+			\item Power on the hub.
 			\item Connect two modules to the hub.
 			\item Power on the modules on the hub.
 			\item Start the modules on the web-interface.
 		\end{enumerate}
-	\item Scene 2
+	\item Scene 2:
 		\begin{enumerate}
 			\item Go to the wind-turbine page on the web-interface.
 			\item Watch the graph being updated.
 		\end{enumerate}
-	\item Scene 3
+	\item Scene 3:
 		\begin{enumerate}
 			\item Watch what is happening if two modules sends at the same time.
 		\end{enumerate}
 \end{itemize}
-A random person was selected from the audience (Klaus Kolle) who was then supposed to go through the above mentioned steps. 
-\\[0.2cm]
+
+A random person was selected from the audience (teacher Klaus Kolle) who was then supposed to go through the above mentioned steps. 
+
+\begin{figure}[H]
+  \centering
+  \subfloat[Web interaction]{\label{fig:drama_web}\includegraphics[width=0.45\textwidth]{images/drama_web_interaction.png}}
+  \hspace{0.2cm}                
+  \subfloat[Web interface]{\label{fig:drama_web}\includegraphics[width=0.45\textwidth]{images/drama_web.png}}
+  \caption{Person interacting with the web interface}
+  \label{fig:drama_web}
+\end{figure}
+
 A video from the drama session can be found on the wiki (find link in the introduction section).
 \\[0.2cm]
-As it can be seen in the video, the different modules in the system were played by persons from the EDE10 class. 
+After the session, the audience where asked to give some feedback. A few mistakes were found in the protocol, such as: non-defined timeout period (the amount of data delivery tries before it is seen as an error), how often data is sent, acknowledge bit check on the ethernet connection to the server and an undefined size of the data sent from the modules. 
 
 \begin{figure}[H]
   \centering
@@ -257,12 +267,5 @@ As it can be seen in the video, the different modules in the system were played 
   \label{fig:drama_data_to_web}
 \end{figure}
 
+As all 7 groups in the EDE10 class are part of one system, it was obvious to have one drama session with participants from all groups. The session turned out surprisingly well, especially because of the attendance from the Web-customers and the teachers who where able to see things on an early stage in the developing of the protocol that we had not thought about. These inputs will hopefully decrease the amount of protocol versions it takes to reach the final one.
 
-\begin{figure}[H]
-  \centering
-  \subfloat[Web interaction]{\label{fig:drama_web}\includegraphics[width=0.45\textwidth]{images/drama_web_interaction.png}}
-  \hspace{0.2cm}                
-  \subfloat[Web interface]{\label{fig:drama_web}\includegraphics[width=0.45\textwidth]{images/drama_web.png}}
-  \caption{Person interacting with the web interface}
-  \label{fig:drama_web}
-\end{figure}
