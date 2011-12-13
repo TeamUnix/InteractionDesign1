@@ -1,6 +1,6 @@
 \chapter{User sessions}
 \section{Prototypes - Theis}
-In order to get information from the users about how the user interface should be like six sessions were made with different purpose and users. For the user sessions four prototypes were made, the prototypes is as follows.
+In order to get information from the users about how the user interface should be like, six sessions were made with different purposes and users. For the user sessions four prototypes were made, the prototypes is as follows.
 
 \subsection{Hub low fidelity}
 The low fidelity hub prototype is used in the participatory design session. The prototype is a box with an aluminium sheet as front, this should act like the hub, then pictures of different types of components were printed out, such as bottoms, LEDs and screens. This makes it easy to rearrange the design, just by moving the pictures around the front sheet. This is a low fidelity prototype, because it do not do anything functional, it is to show how the design could turn out.
@@ -14,7 +14,7 @@ The low fidelity hub prototype is used in the participatory design session. The 
 \end{figure}
 
 \subsection{Hub high fidelity}
-The high fidelity hub prototype was made before the participatory design session, and this was how his needs was defined. The prototype is also used in the participatory design. It were made with the same box as the low fidelity hub prototype, an mbed were used to control the LEDs and bottoms in the front sheet. This is a high fidelity prototype, because it can show how the hub will react on different actions, it gives the user the same experience as a fully operational hub would with this user interface.
+The high fidelity hub prototype was made before the participatory design session, and this was how his needs was defined. The prototype is also used in the participatory design. It were made with the same box as the low fidelity hub prototype, where an mbed\footnote{Prototyping Microcontroller: http://mbed.org/}  were used to control the LEDs and bottoms in the front sheet. This is a high fidelity prototype, because it can show how the hub will react on different actions, it gives the user the same experience as a fully operational hub would with this user interface.
 \begin{figure}[H]
 	\center
 		\setlength\fboxsep{0pt}
@@ -25,7 +25,7 @@ The high fidelity hub prototype was made before the participatory design session
 \end{figure}
 
 \subsection{Power point mid fidelity}
-The power point prototype is used in the first usability test. It is an interactive power point with slides to show the different web pages, it is said that this is a mid fidelity prototype, it gives the user a good experience as the final page would do, but it dose not have any dynamic data, it is all static so that it is just to see how the interaction with the page works.
+The power point prototype is used in the first usability test. It is an interactive power point with slides to show the different web pages, it is said that this is a mid fidelity prototype, it gives the user a good experience as the final page would do, but it does not have any dynamic data, it is all static so that it is just to see how the interaction with the site works.
 \begin{figure}[H]
 	\center
 		\setlength\fboxsep{0pt}
@@ -36,7 +36,7 @@ The power point prototype is used in the first usability test. It is an interact
 \end{figure}
 
 \subsection{HTML web page mid fidelity}
-The HTML page prototype is used in the second usability test. It is the web page developed in EWEB1 course, the purpose of the site is to give at picture of how the final web page would look like and work but without any data reading and logging, it is a static web page. It is said this to be mid fidelity as the power point because it perform the same purpose and have the same functionality.
+The HTML page prototype is used in the second usability test. It is the web page developed in EWEB1 course, the purpose of the site is to give at picture of how the final web page would look like and work but without any data reading and logging, it is a static web page. It is defined to be mid fidelity like the power point because the functionality is almost the same.
 \begin{figure}[H]
 	\center
 		\setlength\fboxsep{0pt}
@@ -77,7 +77,7 @@ To get access to the front panel of the hub, a locker have to be opened with a k
 The general impression from Jan was positive, but some of the functions found on the interface was unnecessary as he will primarily use a PC to check the status of the different devices (on the web interface). The placement and method of connecting new devices was fine and the same with turning on and off the hub. Instead of the pushbuttons found on the prototype, as mentioned, he wanted position switches. The indication of every module was fine, but unnecessary indicators should be removed. 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{First usability tests - Theis}
-In the first usability test, the power point were used as a demonstration prototype of the web page. There were made two sessions, one with Rene and one with Jan as the web customer and the full system customer. A camera were used to record the actions on the screen, and another to record the face expressions. In the sessions Rene and Jan had free hands to play around with the power point. The goal of this test was most of all to show the design, and then get some reactions and comment on what was good and what was bad. There was no specific tasks that the users should do, so this was not completely a usability test. Both Rene and Jan was positive surprised, but they had also a lots of things that they would have on the final page.\\\\
+In the first usability test, the power point were used as a demonstration prototype of the web page. There were made two sessions, one with Rene and one with Jan as the web customer and the full system customer. A camera were used to record the actions on the screen, and another to record the face expressions. In the sessions Rene and Jan had free hands to play around with the power point. The goal of this test was most of all to show the design, and then get some reactions and comment on what were good and what were bad. There was no specific tasks that the users should do, so this was not completely a usability test. Both Rene and Jan was positive surprised, but they had also a lots of things they would have on the final page.\\\\
 \textbf{Rene would like:}
 \begin{itemize}
 	\item Identify modules - Give an ID for each modules so they can be identified easily
@@ -89,53 +89,55 @@ In the first usability test, the power point were used as a demonstration protot
 \end{itemize}
 \textbf{Jan would like:}
 \begin{itemize}
-	\item Small data font - Make bigger data text
+	\item Font size - Make bigger data text
 	\item Explanation for graphs - Make a small explanation for what the graphs shows
 	\item Graphs - Make the graphs full screen when click on
 	\item Energy for storage device - Show the energy for storage modules for comparing with other modules
 	\item Start/Stop - The start and stop function for the modules did not work intuitive for him
 	\item Not exciting - The page was a bit boring
 \end{itemize}
-In the development of the final web page, with all the PHP and dynamic integration, every suggestion from the two sessions will be considered. Identifying the modules will be taken care of with the PHP, so when you click the wind turbine and there is more than one of them, every module will be shown with there ID so the user easily can figure out what module he wants to look at.\\
+In the development of the final web page, with all the PHP and dynamic integration, all suggestion from the two sessions will be considered. Identifying the modules will be taken care of with the PHP, so when you click the wind turbine and there is more than one of them, every module will be shown with there ID so the user easily can figure out what module he wants to look at.\\
 The warnings should be more visible, Rene suggested to maybe change the background color of the module when there is an error. This observation got supported very well in the session with Jan, he did not notice that there was an error on one of the batteries, warnings will be made more visible on the final page, and maybe use the suggestion from Rene with the background color.\\
 Both Jan and Rene wanted to make the graphs full screen when they click on them, this will also be implemented in the final page, maybe with a page where the user can change settings for the graphs and see explanation for what the graph shows.\\
 The permissions for users without log in, is already implemented in the HTML page, so it is possible to see everything on the page without having to log in, but for the possibility to change things you have to log in, this will be made on the final page.\\
 They both wanted more data on the modules, and comparison options between the modules, and the specification of the modules, this will be implemented on the final page, when it is possible to get all data through PHP implementation.\\
 Rene wanted the data to update every 5 to 10 seconds, this would be waste of resources if no one is looking at the web interface, to optimize this, the web interface would check if anyone is using the page, if someone is using it the data will be updated from the log every 5 - 10 seconds.\\
 Jan said that the font was a bit small, this will be helped so it is easy to change the text size on the page.\\
-Jan also said that the page was not exciting, and suggested to use more color, It is because of the page is static, in the final page there will be used java scripting to make effect and animation on the page, this will help on the excitement for the web page.\\
+Jan also said that the page was not exciting, and suggested to use more colors. Probably it is because the page is static. On the final page there will be used java scripting to make effect and animation on the page, this will help on the excitement for the web site.\\
 Jan did not think our start and stop bottoms was intuitive, because of the colors and there was no clearly status indication of the single module, this will be made with a status box for each module clearly showing the status of the module.\\
-Lots of feedback were given on the design from the two sessions, and the plan is to implement all of them in a way so it will fulfil the feedback from Rene and Jan. There was no very big things they wanted, so it is all small things that they think would help on the user experience. This is why it is a good idea with user sessions, a better understanding of the user needs and concrete suggestion to changes that would make the interface better, this makes it easy to implement because the exact needs is know.
-
+Lots of feedback were given on the design from the two sessions, and the plan is to implement all of them in a way so it will fulfill the feedback from Rene and Jan. There was no very big things they wanted, but only small things they think will help on the user experience. This is why it is a good idea with user sessions. A better understanding of the user needs and concrete suggestion to changes that will hopefully make the interface better. It also makes it easy to implement because the exact needs is known.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Second usability tests - Paulo}
 
-In this usability test, persons with different interests and knowledges were selected, a wide different feedback can be acquired, such as: user experience and how persons with different backgrounds interact with the interface.
+In this usability test, persons with different interests and knowledges were selected. Different feedback can be acquired from such tests, such as: user experience and how persons with different backgrounds interact with the interface.
 \\
-\\Two different categories where selected to this usability test:\\
-- 1 Person directly involved on the project.\\
-- 4 Persons with no involvement, or overview over the project.\\
-\\
-
+\\Two different categories where selected to this usability test:
+\begin{itemize}
+	\item 1 Person directly involved on the project.
+	\item 4 Persons with no involvement, or overview over the project.
+\end{itemize}
 The evaluation will be made on the performance, accuracy and emotional response while the user is interacting with the system, the sessions were recorded for later analysis.
 
-In the performance, the system will be evaluated in how much time and how many steps until the user finish simple tasks. Accuracy is determine by the number of mistakes the user have until finish the task, in emotional response the users actions, thoughts about the system and what feelings they got when fulfilling all tasks will be considered.
-\\
-5 simple tasks were asked from the users:\\
-- Unlock the system.\\
-- View photovoltaic average power production .\\
-- See the current power production on the energy hub.\\
-- Find the current status on the battery module.\\
-- Lock the system.\\
+In the performance, the system will be evaluated in how much time and how many steps it takes before the user finishes simple tasks. Accuracy is determine by the number of mistakes the user have before finishing the task, in emotional response the users actions, thoughts about the system and what feelings they got when fulfilling all tasks will be considered.
+\\ 5 simple tasks were asked for the users:
+\begin{itemize}
+	\item Unlock the system.
+	\item View photovoltaic average power production.
+	\item See the current power production on the energy hub.
+	\item Find the current status on the battery module.
+	\item Lock the system.
+\end{itemize}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Setting the Scene - Paulo}
-Setting up a usability test requires the creation of a real scenario (hi-fidelity prototype), in this case a real webpage. User could navigate in the system and since everything was recorded, data can be extracted later on, without compromising any of the user thoughts when interacting with the web interface.
+Setting up a usability test requires the creation of a real scenario (hi-fidelity prototype), in this case a real webpage. The user could navigate in the system and since everything was recorded, data can be extracted later on, without compromising any of the user thoughts when interacting with the web interface.
 
 The aim of this usability test is to observe how users interact with the navigation in a realistic way, so developers can understand problematic areas in the design and be able to improve the interface.
 
-This usability test was performed with students from AU-Herning, with and without any knowledge for the system. The use of a laptop with the web interface running on a web browser and the use of a mouse or trackpad. The session was recorded, with authorisation from the user, this was performed by the front camera and screen capture, in this manner the reactions from the users could be recorded while interacting with the system.
+This usability test was performed with students from AU-Herning, with and without any knowledge for the system. The use of a laptop with the web interface running on a web browser and the use of a mouse or trackpad. The sessions were recorded, with authorisation from the user, this was performed by the front camera and screen capture, in this manner the reactions from the users could be recorded while interacting with the system.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Testing and results - Paulo}
 
 The results of the usability tests are describe below:
@@ -152,10 +154,9 @@ The results of the usability tests are describe below:
 	\end{tabular}
     \caption{Person directly involved on the project. Usability Test \#1}
 \end{table}
-
 The first user, was a person directly involved on the green energy system. The system worked as expected for the user, he was able to complete the task easily and without any troubles, some functionalities should be improved/implemented:\\
 - Unlocking the system, it requires a click on the 'OK' button to submit the credentials. May be useful to implement a key press 'enter' to submit the user and password, since this is how most users are used to work on the internet and different OS's.\\
-- A small explanation of "Savings" icons on the front will be implemented, the user tries to click on them to get more information, without any success.\\
+- A small explanation of "Savings" icons on the front will be implemented, the user tried to click on them to get more information, without any success.\\
 
 \begin{table}[H]
 	\begin{tabular}{ | l | l | l | l |}
@@ -169,7 +170,6 @@ The first user, was a person directly involved on the green energy system. The s
 	\end{tabular}
      \caption{Persons with no involvement, or overview over the project. Usability Test \#2}
 \end{table}
-
 In this usability test, a person with no knowledge about energy or any overview of the project, was selected. This can be compared to the High School students that will see the system for the first time.\\
 Some improvements taken from this test is:\\
 - When the user was asked to see the solar panel (photovoltaic) average production, there were difficulties to associate the icon to the name of it.\\
@@ -187,8 +187,7 @@ Some improvements taken from this test is:\\
 	\end{tabular}
     \caption{Persons with no involvement, or overview over the project. Usability Test \#3}
 \end{table}
-
-A person with no knowledge about energy or any overview over the project was selected. From this usability, the user have difficulty on finding the energy hub on the bottom menu, this can be a big issue in the navigation of the system. 
+A person with no knowledge about energy or any overview over the project was selected. From this usability, the user have difficulty in finding the energy hub on the bottom menu, this can be a big issue in the navigation of the system. 
 
 \begin{table}[H]
 \begin{tabular}{ | l | l | l | l |}
@@ -202,7 +201,6 @@ A person with no knowledge about energy or any overview over the project was sel
 \end{tabular}
 \caption{Persons with no involvement, or overview over the project.  Usability Test \#4}
 \end{table}
-
 In this usability test the association between the names and the icons is hard to understand for the user. This will be improved, since the user experience and navigation are being affected.\\
 
 \begin{table}[H]
@@ -217,8 +215,7 @@ In this usability test the association between the names and the icons is hard t
 \end{tabular}
 \caption{Persons with no involvement, or overview over the project. Usability Test \#5}
 \end{table}
-
-The user feels confused when asked to perform the first task, the amount of icons in the front screen makes it confusing since the user doesn't now which ones are selectable. The energy hub icon is not associated with its name, making the user getting lost in the navigation, this could be avoid having a short name of the module on mouse over.
+The user feels confused when asked to perform the first task, the amount of icons in the front screen makes it confusing since the user does not now which ones are selectable. The energy hub icon is not associated with its name, making the user getting lost in the navigation, this could be avoid having a short name of the module on mouse over.
 
 \begin{figure}[H]
 	\center
@@ -226,6 +223,7 @@ The user feels confused when asked to perform the first task, the amount of icon
    	\caption{Apple solution}
 \end{figure}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Usability Tests Analysis - Paulo}
 
 The performance and accuracy retrieved by the usability tests are showed below:\\
@@ -240,14 +238,14 @@ The performance and accuracy retrieved by the usability tests are showed below:\
 	Current status battery module 	      & 	5.4s			& 	10			\\ \hline
 	Lock the system 			      & 	3.8s			& 	10			\\ \hline
 \end{tabular}
-\caption{Accuracy ( 10 - Higher accuracy, 0- Lower accuracy ) and Performance (time average in seconds per task), data retrieved by the usability tests.}
+\caption{Accuracy ( 10 - High accuracy, 0- Low accuracy ) and Performance (time average in seconds per task), data retrieved by the usability tests.}
 \end{table}
 
 \noindent Task \#1: to unlock the system the user have to type the user name and password on two text fields, this was performed without any difficulty and the time was similar in the first 4 tests, just one user had more difficulties to find  the unlock icon, since it was confusing all the icons on the front page. The key 'enter', would be a good implementation since it is used by many users in the tests.\\
 \\
 Task \#2: when users were asked to see the solar panel (photovoltaic) average production, there were difficulties to associate the icon to the module name. A label with the name of the module will be useful to guide to the right module.\\
 \\
-Task \#3: this task was the most problematic for all the users without any knowledge about the energy system. In this task the accuracy drops o 6, this reflects the higher difficulty in this task for most of the users. This can be improved by writing labels with the name next to the icon of the module.\\
+Task \#3: this task was the most problematic for all the users without any knowledge about the energy system. In this task the accuracy drops to 6, this reflects the higher difficulty in this task for most of the users. This can be improved by writing labels with the name next to the icon of the module.\\
 \\
 Task \#4: there were no difficulties with this task, all users could easily associate the battery icon with his name. This was perfumed with 10 of accuracy.\\
 \\
@@ -270,8 +268,9 @@ Usability tests are going to be performed in next phases of the project, since t
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Drama - Theis}
-A drama play is a good tool for engaging a user as co designer in a project. It is always a good idea to involve the user in development of the product, because they will be using the final product and can easily help with designing the product. This can be accomplished with a drama play, a good thing about the drama play, is that the user is involved, it is easier for the user to understand how the technologies works, and how the product would work. It is also good for the designer because designers do not just develop a product, but also a new work station, this is why it is a good idea to involve the user. The user knows the work practices, he can imagine how he would use it, and assess changes. A drama play do not require big acting potential, it is a basic performance, to show the user how it works, and the designer how the user wants to use it. The goal of a drama session is not to entertain but to clarify how it all would be used.
+A drama play is a good tool for engaging a user as co designer in a project. It is always a good idea to involve the user in development of the product, because they will be using the final product and can easily help with designing the product. This can be accomplished with a drama play, a good thing about the drama play, is that the user is involved, it is easier for the user to understand how the technologies works, and how the product would work. It is also good for the designer because designers do not just develop a product, but also a new work station, this is why it is a good idea to involve the user. The user knows the work practices, he can imagine how he would use it, and access changes. A drama play do not require big acting potential, it is a basic performance, to show the user how it works, and the designer how the user wants to use it. The goal of a drama session is not to entertain but to clarify how it all would be used.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{The protocol - Dennis}
 All 'E-teachers' and the three web-costumers was invited to come by and witness a drama session, showing the data handling in the energy system. The session was made to clarify how the protocol in the system is going to work and find possible leaks in it. 
 \begin{figure}[H]
